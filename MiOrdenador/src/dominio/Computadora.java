@@ -6,24 +6,21 @@ public class Computadora   {
     private final int idComputadora;
     private static int contadorComputadoras;
     private String nombre;
-    Monitor monitor;
-    Teclado teclado;
-    Raton raton;
+    private Monitor monitor;
+    private Teclado teclado;
+    private Raton raton;
 
     public Computadora() {
-        this.idComputadora = ++Computadora.contadorComputadoras;
+        this.idComputadora = ++contadorComputadoras;
     }
 
-    
-    
-    
 
     public Computadora(String nombre, Monitor monitor, Teclado teclado, Raton raton) {
         this();
-        this.nombre = nombre;
-        this.monitor = monitor;
-        this.teclado = teclado;
-        this.raton = raton;
+         this.nombre = nombre;
+         this.monitor = monitor;
+         this.teclado = teclado;
+         this.raton = raton;
     }
 
     @Override

@@ -2,7 +2,7 @@
 package dominio;
 
 
-public class DispositivoEntrada {
+public class DispositivoEntrada extends Object {
     private String tipoEntrada;
     private String marca;
 

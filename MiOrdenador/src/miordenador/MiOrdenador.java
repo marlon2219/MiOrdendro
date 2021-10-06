@@ -2,9 +2,10 @@
 package miordenador;
 
 import dominio.Computadora;
+import dominio.*;
 
-
-public class MiOrdenador {
+//TESTPC
+public class MiOrdenador  {
 
    
     public static void main(String[] args) {
@@ -12,9 +13,10 @@ public class MiOrdenador {
         Computadora compu1 = new Computadora();
         Computadora compu2 = new Computadora();
         Computadora compu3 = new Computadora();
-        System.out.println(compu1);
-         System.out.println(compu2);
-          System.out.println(compu3);
+        Computadora compu4 = new Computadora();
+       
+          
+         
     }
     
 }
